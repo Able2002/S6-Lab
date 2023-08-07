@@ -1,0 +1,5 @@
+gcc -o server server.c
+./server 5098
+
+gcc client -o client.c
+./client 127.0.0.1 5098
